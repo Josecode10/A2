@@ -85,7 +85,7 @@ div img {
   filter: drop-shadow(20px 20px 20px blue);
 }
 [alt="Grand priest"] {
-  filter: drop-shadow(20px 20px 20px red);
+    filter: drop-shadow(20px 20px 20px red);
 }
 [alt="Jiren"] {
   filter: drop-shadow(20px 20px 20px yellow);
@@ -96,7 +96,7 @@ div img {
 [alt="kaio-shin del este"] {
   filter: drop-shadow(20px 20px 20px red);
 }
-[alt=] {
+[alt="Kaio del oeste"] {
   filter: drop-shadow(20px 20px 20px yellow);
 }
 [alt=] {
@@ -128,13 +128,5 @@ div img {
 }
 [alt=] {
   filter: drop-shadow(20px 20px 20px blue);
-}
-[alt=] {
-  filter: drop-shadow(20px 20px 20px red);
-}
-[alt=] {
-  filter: drop-shadow(20px 20px 20px yellow);
-}
-[alt=] {
-  filter: drop-shadow(20px 20px 20px blue);
+  col
 }
