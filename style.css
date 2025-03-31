@@ -5,9 +5,20 @@
 }
 
 body div .card {
-  width: 550px;
-  height: 650px;
+  width: 700px;
+  height: 1500px;
   display: inline-block;
   border: solid black;
+  margin: 2.5rem;
 
+}
+
+.card_header {
+  text-align: center;
+} 
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
