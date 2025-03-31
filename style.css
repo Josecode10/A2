@@ -3,3 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body div .card {
+  width: 550px;
+  height: 650px;
+  display: inline-block;
+  border: solid black;
+
+}
