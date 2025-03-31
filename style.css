@@ -4,7 +4,17 @@
   box-sizing: border-box;
 }
 
-body div .card {
+.titulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+body {
+  background-color: #ff5733;
+}
+
+.card {
   width: 700px;
   height: 1500px;
   display: inline-block;
