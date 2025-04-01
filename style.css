@@ -7,13 +7,14 @@
 .titulo {
   text-align: center;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 55px;
   color: #6495ED;
+  padding: 100px 0px 150px 0px;
 }
 
 body {
   background-color: #ff5733;
-  background-image: url(img/fondo.jpg);
+  background-image: url(img/fondo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22,8 +23,8 @@ body {
   width: 700px;
   height: 1500px;
   display: inline-block;
-  border: solid black 1px;
-  border-radius: 12px;
+  border: solid #DAF7A6 0.5px;
+  border-radius: 16px;
   margin: 2.5rem;
   transition: 0.5s;
 
@@ -38,23 +39,28 @@ body {
 } 
 
 img {
-  height: 90%;
-  width: 90%;
+  height: 80%;
+  width: 80%;
   object-fit: contain;
   transition: 0.5s;
 }
 
 .footer {
   text-align: center;
-  font-size: 25px;
+  font-size: 45px;
   font-weight: 800;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 0px 0px 0px;
+  color: #6495ED;
   transition: 0.5s;
+}
+
+.card:hover {
+  background-color: #DAF7A6;
 }
 
 img {
   transition: 0.5s;
-  cursor: pointer;
+  cursor: cell;
 }
 
 .card:hover h1 {
@@ -65,10 +71,7 @@ img {
   color: #FF5733;
 }
 
-.card:hover {
-  background-color: #DAF7A6;
-}
 
 div.card:hover img {
-  filter: drop-shadow(10px 10px 10px #C70039);
+  filter: drop-shadow(20px 20px 20px #FF5733);
 }
