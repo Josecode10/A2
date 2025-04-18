@@ -1,3 +1,4 @@
+/* En este bloque se cambian valores por defecto del navegador */
 * {
   padding: 0;
   margin: 0;
@@ -5,13 +6,15 @@
   
 }
 
+/* En este bloque se le da estilos al titulo del sitio web */
 .titulo {
   text-align: center;
-  font-family: "Bungee Spice", sans-serif;
+  font-family: "Bungee Spice", sans-serif; /*Fuente obtenida de google fonts*/
   font-weight: 400;
   font-style: normal;
 }
 
+/* En este bloque se le da estilos a todos los elementos contenido en la etiqueta "body" */
 body {
   text-align: center;
   background-image: url(img/fondo2.jpg);
@@ -21,13 +24,14 @@ body {
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
   font-style: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif; /*Fuente obtenida de google fonts*/
   font-optical-sizing: auto;
   height: 100vh;
   width: 100vw;
 
 }
 
+/* En este bloque se le da estilos a la tarjeta y los elementos que la componen */
 .card {
   position: ;
   width: 15em;
@@ -39,6 +43,7 @@ body {
   margin: 1rem;
 }
 
+/* En este bloque se le da estilos al título de la tarjeta */
 .card_header {
   text-align: center;
   font-size: 0.5rem;
@@ -46,6 +51,7 @@ body {
   margin-top: 1rem;
 } 
 
+/* En este bloque se le da estilos a la imagen en la tarjeta */
 img {
   height: 80%;
   width: 80%;
@@ -54,6 +60,7 @@ img {
   filter: drop-shadow(20px -30px 20px rgb(255 255 255));
 }
 
+/* En este bloque se le da estilos al la leyenda que lleva la tarjeta debajo de la imagen */
 .footer {
   text-align: center;
   padding: 0;
@@ -66,6 +73,7 @@ img {
   font-weight: bolder;
 }
 
+/* En este bloque se establece el estilo que va a adquirir la tarjeta cuando se pose el cursor del mouse encima */
 .card:hover {
   background-color: #DAF7A6;
   color: rgba(255, 87, 51, 1);
@@ -73,13 +81,14 @@ img {
 
 img {
   transition: 0.5s;
-  cursor: cell;
+  cursor: cell; /* El cursor cambia al posar el cursor sobre la imagen de la tarjeta */
 }
 
 .card:hover img {
-  filter: drop-shadow(20px -30px 20px #FF5733);
+  filter: drop-shadow(20px -30px 20px #FF5733); /* El sombreado de la imagen cambia de tono al posar el mouse sobre la imagen */
 }
 
+/* Este bloque asigna reglas de estilo a la imagen */
 .image {
   max-width: auto;
   max-height: auto;
